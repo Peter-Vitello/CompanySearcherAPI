@@ -1,13 +1,13 @@
-# HolidayAPI
-what holidays occur today?
+# CompanySearcherAPI
+Website that tells you the domain of the company and the logo.
+
 ## Maintainers
 Peter Vitello
 Tony Weng
 
 ## Description 
-A repoistory for a website we are currently building that will draw from a calander API that lists holidays based off countries and
-their dates. The websites functionalities include telling the user what Holiday's are occuring on the day they visited the site. 
+Our website pulls from the ClearBitAPI which returns information pertaining to a certain website such as the domain, name and logo of the site. 
 
 ## API 
-The API we are using is Calendarific 
-https://calendarific.com/
+The API we are using is ClearBit
+https://clearbit.com/docs#name-to-domain-api
