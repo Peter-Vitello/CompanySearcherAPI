@@ -2,7 +2,7 @@
 Website that tells you the domain of the company and the logo.
 
 ## Maintainers
-Peter Vitello
+Peter Vitello <br />
 Tony Weng
 
 ## Description 
