@@ -28,13 +28,14 @@ body {
     max-height: 940px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-areas: 
-      "hd hd   hd   hd"
-      "sd main main main"
-      "sd main main main"
-      "sd main main main"
-      "sd main main main"
-      "sd main main main"
-      "sd main main main";
+      "hd   hd   hd   hd   hd"
+      "main main main main   main"
+      "main Logo auto result main"
+      "main Logo auto result main"
+      "main Logo auto result main"
+      "main Logo auto result main"
+      "main main main main   main"
+      "main search search search main";
 }
