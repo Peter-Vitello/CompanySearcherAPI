@@ -1,0 +1,85 @@
+header{
+    margin: 0;
+    text-align: left;
+    font-size: 100px;
+}
+#searchbar{
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-areas: ". searchterm searchbutton ."
+}
+#searchbutton {
+  justify-content: center;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 7px 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 8px;
+  transition-duration: 0.8s;
+  border-radius: 6px;
+  width: 10em;
+}
+
+#searchbutton:hover {
+    color: white;
+}
+
+#searchbutton:active {
+  background-color: violet;
+  box-shadow: 2px 2px grey;
+  transform: translateY(1px);
+}
+
+#searchterm {
+    height: 20px;
+    width: 100%;
+}
+
+body {
+    background-color: turquoise;
+    font-family: 'Playfair Display', serif;
+}
+
+/*Search results*/
+#searchresults{
+    display: grid;
+    grid-template-areas: "result"
+    "result"
+    "result"
+    "result"
+    "result";
+}
+.result{
+    border: 5px solid;
+    margin: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"logo name domain";
+}
+.result img{
+    height:128px;
+    width: 128px;
+}
+#logo{
+    width: 33%;
+    margin: 0px;
+}
+#name{
+    width: 33%;
+    margin: 0px;
+    font-size: 25px;
+    align-content: center;
+}
+
+#name p{
+    text-align:center;
+}
+#domain{
+    margin: 0px;
+    width: 33%;
+}
