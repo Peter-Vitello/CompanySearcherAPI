@@ -16,12 +16,12 @@ https://clearbit.com/docs#name-to-domain-api
 I think we deserve full credit for the asignment as a whole
 
 ## What each person did 
-Peter
+###Peter
 - Made the buttons on the css, made the webpage look pritty 
 - Worked on the third control which is the sorting filter dropdown box
 - Worked on saving the last know value of the search bar
-Tony
-- Made our first 2 controls
+###Tony
+- worked on all 3 controls 
 - helped with the CSS by making the divs so the results come back as boxes
 
 ## What grade would we choice 
