@@ -4,6 +4,7 @@ window.onload = (e) =>{
 
 let term = "";
 let resultsDiv = document.querySelector("#searchresults");
+let limit;
 
 function searchButtonClicked()
 {
@@ -38,7 +39,10 @@ function searchButtonClicked()
 		// 8 - open connection and send the request
 	xhr.open("GET",url);
 	xhr.send();
+	limit = document.querySelector("#limit").value
 }
+
+
 
 function dataError(e){
     console.log("An error occucred!");
@@ -68,10 +72,12 @@ function dataLoaded(e){
 			return;
 		}
 		
+		// uses the limit of the dropdown to limit the amount of companies returned
+		
 		// 6 - put together HTML
-		let numberofresults = `<p><i>Here are <b>${results.length}</b> results!</i></p>`; // ES6 String Templating
+		let numberofresults = `<p><i>Here are <b>${limit}</b> results!</i></p>`; // ES6 String Templating
 		let bigString = "";
-		for (let i=0;i<results.length;i++){
+		for (let i=0;i<limit;i++){
 			let result = results[i];
 			let url = result.domain;
 			let logo = result.logo;
