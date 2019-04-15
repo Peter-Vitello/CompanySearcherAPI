@@ -15,12 +15,12 @@ https://clearbit.com/docs#name-to-domain-api
 ## Why We Deserve our full credit 
 I think we deserve full credit for the asignment as a whole
 
-## What each person did 
-###Peter
+## What each team member did 
+### Peter
 - Made the buttons on the css, made the webpage look pritty 
 - Worked on the third control which is the sorting filter dropdown box
 - Worked on saving the last know value of the search bar
-###Tony
+### Tony
 - worked on all 3 controls 
 - helped with the CSS by making the divs so the results come back as boxes
 
