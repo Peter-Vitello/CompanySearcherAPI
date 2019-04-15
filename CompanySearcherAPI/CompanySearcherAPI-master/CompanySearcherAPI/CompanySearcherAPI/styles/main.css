@@ -1,0 +1,135 @@
+header{
+    margin: 0;
+    text-align: left;
+    font-size: 100px;
+    color: firebrick;
+    text-shadow: 2px 2px black;
+
+}
+
+#searchbar{
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-areas: ". searchterm searchbutton ."
+}
+
+#searchbutton {
+  justify-content: center;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 7px 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 8px;
+  transition-duration: 0.8s;
+  border-radius: 6px;
+  width: 10em;
+}
+
+#searchbutton:hover {
+    color: white;
+}
+
+#searchbutton:active {
+  background-color: violet;
+  box-shadow: 2px 2px grey;
+  transform: translateY(1px);
+}
+
+#searchterm {
+    height: 20px;
+    width: 100%;
+}
+
+body {
+    background-color: turquoise;
+    font-family: 'Playfair Display', serif;
+}
+
+/*Search results*/
+#searchresults {
+    display: grid;
+    grid-template-areas: "result"
+    "result"
+    "result"
+    "result"
+    "result";
+}
+
+.result {
+    border: 5px solid;
+    margin: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"logo name domain";
+    background-color: grey;
+}
+
+.result img {
+    height:128px;
+    width: 128px;
+}
+
+#logo {
+    margin: 0px;
+}
+
+#name {
+    margin: 0px;
+    font-size: 25px;
+    align-content: center;
+}
+
+#name p {
+    text-align:center;
+}
+
+#domain {
+    margin: 0px;
+}
+
+.btn-sm {
+    position: relative;
+    border: inset;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 75px;
+    text-align: center;
+    transition-duration: 2s;
+    text-decoration: wavy;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+.btn-sm:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+ }
+  
+ .btn-sm:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+ }
+
+ #domain a {
+     color: red;
+     font-size: 20px; 
+ }
+ #domain {
+    text-align: center;
+ }
