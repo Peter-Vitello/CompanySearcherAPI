@@ -21,11 +21,13 @@ I think we deserve full credit for the asignment as a whole
 - Worked on the dropdown control
 - Worked on saving the last know value of the search bar
 ### Tony
-- worked on all 3 controls 
-- helped with the CSS by making the divs so the results come back as boxes
+- Pulled from appropriate API and displayed information to the screen
+- Created base page layout through drawing and refined through CSS
+- Created Favorites button functionality using JavaScript
+- Helped with the CSS by making the divs so the results come back as boxes
 
 ## What grade would we choice 
-We feel that our work is worth a 90%
+We feel that our work is worth a 90% 
 
 ## Sources 
 https://www.w3schools.com
