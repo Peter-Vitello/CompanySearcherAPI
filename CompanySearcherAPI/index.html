@@ -6,17 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/main.css">
     <script defer src="js/api.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>API Company Searcher</title>
 </head>
-<body>
-    <header>Company Searcher</header>    
-    <div id="searchbar">
-        <input id="searchterm" type="text" size="100" placeholder="Enter Comapny Name" autofocus value="" />
-        <button type="button" id="searchbutton">Search</button>
+<div id="wrapper">
+  <body>
+      <header>Company Searcher</header>    
+      <div id="searchbar">
+          <input id="searchterm" type="text" size="100" placeholder="Enter Comapny Name" autofocus value="" />
+          <button type="button" id="searchbutton">Search</button>
+          <label id="resultslength">Results Length:<select id="limit">
+            <option value="1">1</option>
+            <option value="2" >2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected>5</option>
+            
+          </select>
+        </label>
+          <button id="myBtn">Favorites List</button>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="favResults"></p>
     </div>
-    <div id= "numberofresults"></div>
-    <div id ="searchresults">
-
-    </div>
-</body>
+  
+  </div>
+      </div>
+      
+  
+      <div id= "numberofresults"></div>
+      <div id ="searchresults">
+  
+      </div>
+  </body>
+</div>
 </html>
